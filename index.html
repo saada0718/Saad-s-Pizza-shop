@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Saad's Pizza Shop</title>
+	<header>
+		<div class="header">
+			<h1 id="title">Saad's Pizza Shop</h1>
+		</div>
+	</header>
+
+	<body>
+		<h1 class="pickSize">Pick the pizza size <span class="heading2">Toppings</span></h1>
+		<form class="radioButtons">
+			<input type="radio" id="large" name="choice" value="Large">
+			<label for="large">Large</label>
+			<span class="pepperoni"></span>
+			<input type="checkbox" id="peppernoi" name="toppings" value="Pepperoni">
+			<label for="pepperoni">Pepperoni</label>
+			<br>
+			<br>
+			<input type="radio" id="medium" name="choice" value="Medium">
+			<label for="medium">Medium</label>
+			<span class="onion"></span>
+			<input type="checkbox" id="onion" name="toppings" value="Onion">
+			<label for="onion">Onion</label>
+			<br>
+			<br>
+			<input type="radio" id="small" name="choice" value="Small">
+			<label for="small">Small</label>
+			<span class="bOlive"></span>
+			<input type="checkbox" id="bOlive" name="toppings" value="Black Olive">
+			<label for="bOlive">Black Olive</label>
+			<br>
+			<br>
+			<span class="othrtopping">
+				<input type="checkbox" id="gOlive" name="toppings" value="Green Olive">
+				<label for="gOlive">Green Olive</label>
+			</span>
+		</form>
+		<form class="forms">
+			<label for="fname">First name:</label>  
+			<label for="lname" class="right">Last name:</label>
+			<br>
+			<input type="text" id="fname" name="fname">
+			<span class="spacing"></span>
+			<input type="text" id="lname" name="lname">
+			<br>
+			<br>
+
+
+
+			<label for="addrs">Address:</label>
+			<br>
+			<input type="text" id="addrs" name="addrs">
+			
+		</form>
+		<br>
+		<br>
+		<button id="buttonCalcTip" class="pay">
+			Pay
+		</button>
+		<br>
+		<br>
+		<p id="total"></p>
+		<script src="javascript.js"></script>
+	</body>
+</html>
